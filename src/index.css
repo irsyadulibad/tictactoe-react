@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #1A2F4B;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-field {
+    background-color: #25436c;
+    width: 100px;
+    height: 100px;
+}
+
+.O-content {
+    color: #2F8886;
+}
+
+.X-content {
+    color: #EF6262;
+}
+
+.game-status .player-preview .content{
+    margin-right: .08em;
+}
+
+.game-status .player-turn {
+    background-color: #25436c;
+}
+
+.modal {
+    background-color: #1f385b;
+}
